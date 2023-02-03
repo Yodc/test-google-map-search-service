@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "fdc5dae2-80e2-4621-a242-6832e8152e6d",
+		"name": "test-google-map",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "google_map",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"search_text\": \"โรงเรียน\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/google_map",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"google_map"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
